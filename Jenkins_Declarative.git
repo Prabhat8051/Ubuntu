@@ -13,7 +13,7 @@ stage ("Git Checkout with scm")
 {
 steps
 {
-
+git 'https://github.com/Prabhat8051/Ubuntu.git'
 }
 }
 }
