@@ -1,0 +1,20 @@
+pipeline
+{
+agent any
+stages
+{
+stage ("Welcome")
+{
+steps {
+echo "connecting git with jenkins through SCM"
+}
+}
+stage ("Git Checkout with scm")
+{
+steps
+{
+
+}
+}
+}
+}
